@@ -1,0 +1,9 @@
+server {
+    listen 80;
+    server_name tlubenov.info www.tlubenov.info;
+
+    location / {
+        include proxy_params;
+        proxy_pass http://unix:/home/mapserver/tlubenov/backend/tlubenov.sock;
+    }
+}
