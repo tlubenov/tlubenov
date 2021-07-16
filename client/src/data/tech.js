@@ -1,3 +1,4 @@
+/* eslint-disable */
 
 const logos = require.context('./logos', true, /\.svg$/);
 const pngs = require.context('./logos', true, /\.png$/);
