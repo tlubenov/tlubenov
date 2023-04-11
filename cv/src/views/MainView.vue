@@ -10,7 +10,6 @@
 
 <script lang="ts">
 import { Options, Vue } from 'vue-class-component'
-// import HelloWorld from '@/components/HelloWorld.vue' // @ is an alias to /src
 import HeaderSection from '@/components/HeaderSection.vue'
 import HeroSection from '@/components/HeroSection.vue'
 import MainSection from '@/components/MainSection.vue'
@@ -24,5 +23,5 @@ import FooterSection from '@/components/FooterSection.vue'
     MainSection
   }
 })
-export default class HomeView extends Vue {}
+export default class MainView extends Vue {}
 </script>
